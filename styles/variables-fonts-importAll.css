@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 @import url(./reset.css);
 @import url(./utilites.css);
-@import url(./space-utils.css);
 
 
 body {
@@ -12,10 +11,10 @@ body {
 :root {
 
     /* Body or Main Colors */
-    --primary-color: #b08968;
-    --secondary-color: #ddb892;
+    --primary-color: #06d6a0;
+    --secondary-color: #118ab2;
     --tertiary-color: #7f5539;
-    --quartenary-color: #9c6644;
+    --quartenary-color: #ef476f;
     --extra-bg-color-1: #ffb3c1;
     --extra-bg-color-2: #a0c4ff;
     --dark-bg-color: #072227;
@@ -27,7 +26,7 @@ body {
     --text-dark-color: #000000;
     --text-dark-alt-color: #808080;
     --shadow-bg-gen: #808080;
-    --text-primary-color: #b08968;
+    --text-primary-color: #073b4c;
     --text-secondary-color: #808080;
     --wishlisted-color: #FF0000;
 
