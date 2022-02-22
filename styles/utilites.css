@@ -1,0 +1,43 @@
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-justify-between {
+    justify-content: space-between;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flez-wrap {
+    flex-wrap: wrap;
+}
+
+.btn-full-width {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-2 {
+    grid-template-columns: auto 1fr;
+}

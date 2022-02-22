@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@import url(./reset.css);
+@import url(./utilites.css);
+@import url(./space-utils.css);
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+:root {
+
+    /* Body or Main Colors */
+    --primary-color: #b08968;
+    --secondary-color: #ddb892;
+    --tertiary-color: #7f5539;
+    --quartenary-color: #9c6644;
+    --extra-bg-color-1: #ffb3c1;
+    --extra-bg-color-2: #a0c4ff;
+    --dark-bg-color: #072227;
+    --dark-alt-bg-color-2: #e2e2e2;
+    --light-alt-bg-color: #F1F1F1; 
+    --dark-alt-bg-color: #041C32;
+    --text-light-color:  #FFFFFF;
+    --text-light-alt-color: #F1F1F1;
+    --text-dark-color: #000000;
+    --text-dark-alt-color: #808080;
+    --shadow-bg-gen: #808080;
+    --text-primary-color: #b08968;
+    --text-secondary-color: #808080;
+    --wishlisted-color: #FF0000;
+
+
+
+    /* Input colors */
+    --border-dark-color: #000000;
+    --border-light-color: #808080;
+    --border-lighter-color: #e0e0e0;
+    --border-very-light-color: #F1F1F1;
+    --border-warn-color: #eed202;
+    --border-error-color: #FF0000;
+    --border-success-color: #009E60;
+
+
+    /* Badge Colors */
+    --online: #00FF00;
+    --offline: #FF0000;
+    --idle: #D3D3D3;
+    --badge-bg: #FF0000;
+    --badge-text: #ffffff;
+
+
+    /* Alert Colors */
+    --alert-primary-bg: #7FD2E6;
+    --alert-primary-text: #29438b;
+    --alert-secondary-bg: #eaeaec;
+    --alert-secondary-text: #696b79;
+    --alert-success-bg: #84f1c9;
+    --alert-success-text: #1b7052;
+    --alert-danger-bg: #fcc5c5;
+    --alert-danger-text: #dc3545;
+    --alert-warn-bg: #ffe7c5;
+    --alert-warn-text: #ff9204;
+    --alert-error-bg: #fcc5c5;
+    --alert-error-text: #dc3545;
+
+
+    /* Font-sizes */
+    --h1: 2rem;
+    --h2: 1.5rem;
+    --h3: 1.17rem;
+    --h4: 1rem;
+    --h5: 0.83rem;
+    --h6: 0.67rem;
+
+
+  
+  
+  /* Add text font-size varibles */
+  
+  
+
+    /* Line-heights */
+    --line-ht-xs: 1;
+    --line-ht-sm: 1.25;
+    --line-ht-reg: 1.50;
+    --line-ht-md: 1.75;
+    --line-ht-lg: 2;
+    --line-ht-xl: 2.5;
+
+
+    /* Font-weights */
+    --weight-thin: 300;
+    --weight-light: 500;
+    --weight-reg: 600;
+    --weight-bold: 700;
+    --weight-xbold: 900;
+
+    /* Rating Colors */
+
+    --rating-star-hover: #ffd675;
+    --rating-star-checked:  #ffb400;
+
+
+
+
+}
