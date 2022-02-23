@@ -123,11 +123,6 @@ nav a {
     text-align: center;
 }
 
-
-
-
-
-
 /* Misc */
 
 .card-button a {
@@ -141,3 +136,82 @@ nav a {
     transition: 80ms;
 }
 
+/* Questions Page Styling */
+
+.que-page-main-section {
+    box-sizing: border-box;
+    height: 40rem;
+    width: 40%;
+    margin: auto;
+}
+
+.section-quiz-info {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.que-score-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    font-size: var(--h3);
+    font-weight: var(--weight-bold);
+}
+
+.mcq-section-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 1rem auto;
+    padding: 2rem;
+    background-color: var(--light-alt-bg-color);
+    width: 100%;
+    min-height: 20rem;
+    border-radius: 0.5rem;
+}
+
+/* default radio invisible */
+label > input[type="radio"] {
+    visibility: hidden;
+    display: block;
+}
+
+.mcq-opts-container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.mcq-opt-btn {
+    background-color: var(--dark-alt-bg-color-3);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+  
+label > input[type="radio"]:checked + * {
+    background-color: var(--dark-alt-bg-color-4);
+}
+
+.CTA-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.CTA-section .card-button {
+    padding: 0.5rem 2rem;
+}

@@ -17,10 +17,14 @@ body {
     --quartenary-color: #ef476f;
     --extra-bg-color-1: #ffb3c1;
     --extra-bg-color-2: #a0c4ff;
+    --extra-bg-color-3: #7393B3;
     --dark-bg-color: #072227;
-    --dark-alt-bg-color-2: #e2e2e2;
-    --light-alt-bg-color: #F1F1F1; 
     --dark-alt-bg-color: #041C32;
+    --dark-alt-bg-color-2: #e2e2e2;
+    --dark-alt-bg-color-3: #D3D3D3	;
+    --dark-alt-bg-color-4: #808080;
+    --dark-alt-bg-color-5: #808080;
+    --light-alt-bg-color: #F1F1F1; 
     --text-light-color:  #FFFFFF;
     --text-light-alt-color: #F1F1F1;
     --text-dark-color: #000000;
