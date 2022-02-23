@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rishabh Rathore">
+    <meta name="description" content="Quiz App">
+    <link rel="stylesheet" href="https://cosmos-ui-cl.netlify.app/Styles/cosmos-ui.css"/>
+    <link rel="stylesheet" href="../../../styles/styles.css">
+    <script src="https://kit.fontawesome.com/fa8f01e628.js" crossorigin="anonymous"></script>
+
+    <title>Quizzo /login</title>
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <div class="nav-section">
+            <div class="nav-logo-title-container">
+                <!-- Brand Logo -->
+                <img class="nav-logo" src="../../../assets/quizzo-hero.svg" alt="Logo" width="60" height="60">
+                <!-- Brand Title -->
+                <h1 class="nav-logo-title">Quizzo</h1>
+            </div>
+        </div>
+
+
+        <!-- search bar -->
+        <div class="nav-section">
+            <div class="search-bar">
+                <span class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <input class="search-bar-input" type="text" placeholder="Search for Quizzes">
+            </div>
+        </div>
+
+
+        <!-- Icons and Buttons -->
+        <div class="nav-section">
+            <button class="btn btn-link">
+                <a class="btn-link" href="./pages/auth/logout/.index.html">Logout</a>
+            </button>
+            <button class="btn btn-primary">
+                <a href="./pages/auth/login/.index.html">Login</a>
+            </button>
+        </div>
+    </nav>
+
+   <!-- Main Section -->
+
+    <main class="auth-main flex-col flex-justify-center flex-align-center">
+        <div class="auth-wrapper flex-row flex-justify-center flex-align-center">
+            <section class="auth-container signup-container">
+                <h3 class="text-center auth-head">
+                    SIGN UP
+                </h3>
+                <div class="auth-fields">
+                    <div class="input-group input-default">
+                        <label class="text-label flex-col" for="input-signup-fname">
+                            First Name
+                            <input type="text" id="input-signup-fname" class="input-text" placeholder="Charles" />
+                        </label>
+                        <span class="text-message"></span>
+                    </div>
+                    <div class="input-group input-default">
+                        <label class="text-label flex-col" for="input-login-lname">
+                            Last Name
+                            <input type="text" id="input-login-lname" class="input-text" placeholder="Darwin" />
+                        </label>
+                        <span class="text-message"></span>
+                    </div>
+                    <div class="input-group input-default">
+                        <label class="text-label flex-col" for="input-login-email">
+                            Email
+                            <input type="email" id="input-login-email" class="input-text" placeholder="charlesdarwin@example.com" />
+                        </label>
+                        <span class="text-message"></span>
+                    </div>
+                    <div class="input-group input-default">
+                        <label class="text-label flex-col" for="input-psd">
+                            Password
+                            <span class="password-input-toggler">
+                                <input type="password" id="input-psd" class="input-text" placeholder="**************" />
+                                <button class="btn btn-icon icon-show-psd">
+                                    <span class="icon">
+                                        <i class="fas fa-eye"></i>
+                                    </span>
+                                </button>
+                            </span>  
+                        </label>
+                        <span class="text-message"></span>
+                    </div> 
+                    <div class="input-group input-default">
+                        <label class="text-label flex-col" for="input-conf-psd">
+                            Confirm Password
+                            <span class="password-input-toggler">
+                                <input type="password" id="input-conf-psd" class="input-text" placeholder="**************">
+                                <button class="btn btn-icon icon-show-psd">
+                                    <span class="icon">
+                                        <i class="fas fa-eye"></i>
+                                    </span>
+                                </button>
+                            </span>
+                        </label>
+                        <span class="text-message"></span>
+                    </div> 
+                    <div class="psd-mgmt-container flex-row flex-align-center flex-justify-between flex-wrap">
+                        <label for="checkbox-remember" class="flex-row input-checkbox-remember flex-align-center">
+                            <input type="checkbox" class="input-checkbox" id="checkbox-remember" />
+                            I accept the terms and conditions
+                        </label>
+                        <div class="btn btn-link btn-forgot-psd text-sm display-none">
+                            Forgot password?
+                        </div>
+                    </div>
+                    
+                    <div class="button-container flex-col flex-align-center">
+                        <button class="btn btn-primary btn-full-width">
+                            Sign Up
+                        </button>
+                        <a href="../login/index.html" class="btn btn-link">
+                            Already have an account?
+                            Login  <span class="icon">
+                                <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </section>  
+        </div>         
+    </main>
+   
+
+
+    <!-- Footer -->
+
+    <footer>
+        <h3>Made with <span><i class="fa-solid fa-code"></i></span> & ❤️ by Rishabh Rathore</h3>
+        <a class="footer-social-links" href="https://github.com/rishbitsnbytes">Github</a>
+        <a class="footer-social-links" href="https://twitter.com/rishbitsnbytes">Twitter</a>
+        <a class="footer-social-links" href="https://www.linkedin.com/in/rishrathore/">LinkedIn</a>
+    </footer>
+    
+</body>
+</html>

@@ -215,3 +215,138 @@ label > input[type="radio"]:checked + * {
 .CTA-section .card-button {
     padding: 0.5rem 2rem;
 }
+
+
+
+.auth-main {
+    min-height: fit-content;
+    margin: auto;
+    padding: 2rem 3rem;
+    height: 80vh;
+}
+.auth-container {
+    background-color: var(--dark-alt-bg-color-2);
+    border-radius: 0.2rem;
+    max-width: 400px;
+    min-width: 30%;
+    min-height: fit-content;
+    padding: 2rem 3rem;
+}
+
+
+/* Auth Styles Temp */
+
+.auth-main {
+    min-height: fit-content;
+    margin: auto;
+    padding: 2rem 3rem;
+    height: 80vh;
+}
+
+.auth-container.logout-container .auth-head {
+    line-height: 0;
+    font-size: var(--h1);
+}
+
+
+
+.auth-container.logout-container .auth-head-icon {
+    font-size: var(--h4);
+}
+
+.auth-wrapper {
+    width: 100%;   
+}
+
+.auth-container {
+    background-color: var(--dark-alt-bg-color-2);
+    border-radius: 0.2rem;
+    max-width: 400px;
+    min-width: 30%;
+    min-height: fit-content;
+    padding: 2rem 1rem;
+    border: 2px solid var(--border-light-color);
+}
+
+.auth-container.signup-container {
+    max-width: 500px;
+}
+
+.auth-container.logout-container {
+    height: 300px;
+    max-width: 600px;
+    justify-content: flex-end;
+}
+
+.auth-fields .input-group {
+    width: 80%;
+    margin: 0rem auto;
+    border: unset;
+}
+
+.auth-fields .input-text {
+    border-radius: 0.2rem;
+    border: 1px solid var(--border-dark-color);
+    margin: 0.2rem 0;
+    height: 1.5rem;
+}
+
+.auth-fields .text-label {
+    width: 100%;
+}
+
+.input-checkbox-remember {
+    gap: 0.5rem;
+}
+
+#checkbox-remember {
+    color: var(--primary-active-color);
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 0.125rem solid var(--primary-active-color);
+    border-radius: 0.1rem;
+    transform: translateY(0.07rem);
+}
+
+.psd-mgmt-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0.5rem 2rem 0.5rem 1rem;
+    height: 1.5rem;
+}
+
+.btn.btn-forgot-psd {
+    color: var(--primary-color);
+}
+
+#checkbox-remember {
+    accent-color: var(--primary-active-color);
+}
+
+.psd-mgmt-container label:hover {
+    color: var(--primary-color);
+}
+
+.password-input-toggler {
+    position: relative;
+}
+
+.password-input-toggler .input-text {
+    width: 100%;
+}
+
+.icon-show-psd {
+    position: absolute;
+    top: 3px;
+    right: -25px;
+    transform: translate(-50%, -50%);
+}
+
+.btn-full-width {
+    width: 80%;
+}
+
+.btn {
+    margin: 0.5rem auto;
+}
+
