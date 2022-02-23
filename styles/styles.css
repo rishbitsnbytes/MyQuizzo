@@ -80,6 +80,51 @@ nav a {
     margin-bottom: 5rem;
 }
 
+
+/* Rules Page Styles */
+
+.rules-page-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto 5rem auto;
+    max-width: 40rem;
+    padding: 2rem;
+}
+
+.rules-page-section-rules {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3rem auto;
+    max-width: 40rem;
+    border: 1px solid var(--primary-color);
+    padding: 2rem;
+}
+
+.section-head-title, .section-head-subtitle {
+    text-align: center;
+}
+
+.rules-lists {
+    padding: 0;
+}
+
+.rules-lists li {
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+.CTA-btn {
+    min-width: 20rem;
+    align-self: center;
+    text-align: center;
+}
+
+/* Misc */
+
 .card-button a {
     text-decoration: none;
     color: unset;
@@ -90,3 +135,218 @@ nav a {
     transform: scale(1.1);
     transition: 80ms;
 }
+
+/* Questions Page Styling */
+
+.que-page-main-section {
+    box-sizing: border-box;
+    height: 40rem;
+    width: 40%;
+    margin: auto;
+}
+
+.section-quiz-info {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.que-score-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    font-size: var(--h3);
+    font-weight: var(--weight-bold);
+}
+
+.mcq-section-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 1rem auto;
+    padding: 2rem;
+    background-color: var(--light-alt-bg-color);
+    width: 100%;
+    min-height: 20rem;
+    border-radius: 0.5rem;
+}
+
+/* default radio invisible */
+label > input[type="radio"] {
+    visibility: hidden;
+    display: block;
+}
+
+.mcq-opts-container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.mcq-opt-btn {
+    background-color: var(--dark-alt-bg-color-3);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+  
+label > input[type="radio"]:checked + * {
+    background-color: var(--dark-alt-bg-color-4);
+}
+
+.CTA-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.CTA-section .card-button {
+    padding: 0.5rem 2rem;
+}
+
+
+
+.auth-main {
+    min-height: fit-content;
+    margin: auto;
+    padding: 2rem 3rem;
+    height: 80vh;
+}
+.auth-container {
+    background-color: var(--dark-alt-bg-color-2);
+    border-radius: 0.2rem;
+    max-width: 400px;
+    min-width: 30%;
+    min-height: fit-content;
+    padding: 2rem 3rem;
+}
+
+
+/* Auth Styles Temp */
+
+.auth-main {
+    min-height: fit-content;
+    margin: auto;
+    padding: 2rem 3rem;
+    height: 80vh;
+}
+
+.auth-container.logout-container .auth-head {
+    line-height: 0;
+    font-size: var(--h1);
+}
+
+
+
+.auth-container.logout-container .auth-head-icon {
+    font-size: var(--h4);
+}
+
+.auth-wrapper {
+    width: 100%;   
+}
+
+.auth-container {
+    background-color: var(--dark-alt-bg-color-2);
+    border-radius: 0.2rem;
+    max-width: 400px;
+    min-width: 30%;
+    min-height: fit-content;
+    padding: 2rem 1rem;
+    border: 2px solid var(--border-light-color);
+}
+
+.auth-container.signup-container {
+    max-width: 500px;
+}
+
+.auth-container.logout-container {
+    height: 300px;
+    max-width: 600px;
+    justify-content: flex-end;
+}
+
+.auth-fields .input-group {
+    width: 80%;
+    margin: 0rem auto;
+    border: unset;
+}
+
+.auth-fields .input-text {
+    border-radius: 0.2rem;
+    border: 1px solid var(--border-dark-color);
+    margin: 0.2rem 0;
+    height: 1.5rem;
+}
+
+.auth-fields .text-label {
+    width: 100%;
+}
+
+.input-checkbox-remember {
+    gap: 0.5rem;
+}
+
+#checkbox-remember {
+    color: var(--primary-active-color);
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 0.125rem solid var(--primary-active-color);
+    border-radius: 0.1rem;
+    transform: translateY(0.07rem);
+}
+
+.psd-mgmt-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0.5rem 2rem 0.5rem 1rem;
+    height: 1.5rem;
+}
+
+.btn.btn-forgot-psd {
+    color: var(--primary-color);
+}
+
+#checkbox-remember {
+    accent-color: var(--primary-active-color);
+}
+
+.psd-mgmt-container label:hover {
+    color: var(--primary-color);
+}
+
+.password-input-toggler {
+    position: relative;
+}
+
+.password-input-toggler .input-text {
+    width: 100%;
+}
+
+.icon-show-psd {
+    position: absolute;
+    top: 3px;
+    right: -25px;
+    transform: translate(-50%, -50%);
+}
+
+.btn-full-width {
+    width: 80%;
+}
+
+.btn {
+    margin: 0.5rem auto;
+}
+
