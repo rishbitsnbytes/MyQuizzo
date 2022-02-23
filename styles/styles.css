@@ -80,6 +80,56 @@ nav a {
     margin-bottom: 5rem;
 }
 
+
+/* Rules Page Styles */
+
+.rules-page-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto 5rem auto;
+    max-width: 40rem;
+    padding: 2rem;
+}
+
+.rules-page-section-rules {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3rem auto;
+    max-width: 40rem;
+    border: 1px solid var(--primary-color);
+    padding: 2rem;
+}
+
+.section-head-title, .section-head-subtitle {
+    text-align: center;
+}
+
+.rules-lists {
+    padding: 0;
+}
+
+.rules-lists li {
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+.CTA-btn {
+    min-width: 20rem;
+    align-self: center;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Misc */
+
 .card-button a {
     text-decoration: none;
     color: unset;
@@ -90,3 +140,4 @@ nav a {
     transform: scale(1.1);
     transition: 80ms;
 }
+
